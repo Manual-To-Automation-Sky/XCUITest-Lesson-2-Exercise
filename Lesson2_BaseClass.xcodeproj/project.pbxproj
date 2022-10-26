@@ -24,8 +24,6 @@
 		9A780C9C28B6339C00843990 /* SwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A780C9B28B6339C00843990 /* SwitchesViewController.swift */; };
 		9AD6C06828EE0ADB0088696C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6C06728EE0ADA0088696C /* LoginController.swift */; };
 		9AD6C06A28EE0C850088696C /* LoginCompletedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6C06928EE0C850088696C /* LoginCompletedController.swift */; };
-		9ADB935E29003D0500AC416A /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB935D29003D0400AC416A /* .env */; };
-		9ADB93602900402100AC416A /* setenv.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB935F2900402100AC416A /* setenv.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +65,6 @@
 		9A780C9B28B6339C00843990 /* SwitchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesViewController.swift; sourceTree = "<group>"; };
 		9AD6C06728EE0ADA0088696C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9AD6C06928EE0C850088696C /* LoginCompletedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCompletedController.swift; sourceTree = "<group>"; };
-		9ADB935D29003D0400AC416A /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
-		9ADB935F2900402100AC416A /* setenv.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setenv.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +95,6 @@
 		9A780C5928B5372F00843990 = {
 			isa = PBXGroup;
 			children = (
-				9ADB935F2900402100AC416A /* setenv.sh */,
-				9ADB935D29003D0400AC416A /* .env */,
 				9A780C6428B5372F00843990 /* SkyTraining */,
 				9A780C7B28B5373100843990 /* Lesson2_BaseClassTests */,
 				9A780C8528B5373100843990 /* Lesson2_BaseClassUITests */,
@@ -278,8 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ADB935E29003D0500AC416A /* .env in Resources */,
-				9ADB93602900402100AC416A /* setenv.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
